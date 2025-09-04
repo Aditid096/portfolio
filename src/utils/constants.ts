@@ -8,8 +8,8 @@ export const COLORS = {
 // Social media links
 export const SOCIAL_LINKS = {
   email: 'aditichavan925@gmail.com',
-  linkedin: 'https://linkedin.com/in',
-  github: 'https://github.com/aditid096'
+  linkedin: 'https://www.linkedin.com/in/aditi-chavan9696/',
+  github: 'https://github.com/Aditid096'
 };
 
 // Navigation items

@@ -56,8 +56,8 @@ const Header = () => {
           <div className="hidden md:flex items-center space-x-4">
             {[
               { icon: <Github size={20} />, href: 'https://github.com/Aditid096' },
-              { icon: <Linkedin size={20} />, href: 'https://linkedin.com' },
-              { icon: <Mail size={20} />, href: 'mailto:contact@example.com' }
+              { icon: <Linkedin size={20} />, href: 'https://www.linkedin.com/in/aditi-chavan9696/' },
+              { icon: <Mail size={20} />, href: 'mailto:aditichavan925@gmail.com' }
             ].map((social, index) => (
               <motion.a
                 key={social.href}

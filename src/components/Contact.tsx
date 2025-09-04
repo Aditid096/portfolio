@@ -15,21 +15,21 @@ const Contact = () => {
             <h3 className="text-xl font-semibold mb-6">Contact Information</h3>
             <div className="space-y-4">
               <a
-                href="mailto:contact@example.com"
+                href="aditichavan925@gmail.com"
                 className="flex items-center text-gray-600 hover:text-indigo-600"
               >
                 <Mail className="w-5 h-5 mr-3" />
                 aditichavan925@gmail.com
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/aditi-chavan9696/"
                 className="flex items-center text-gray-600 hover:text-indigo-600"
               >
                 <Linkedin className="w-5 h-5 mr-3" />
                 LinkedIn Profile
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/Aditid096"
                 className="flex items-center text-gray-600 hover:text-indigo-600"
               >
                 <Github className="w-5 h-5 mr-3" />

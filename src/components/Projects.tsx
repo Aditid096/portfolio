@@ -1,30 +1,31 @@
-import React from 'react';
+// import React from 'react';
 import { motion } from 'framer-motion';
-import { Brain, LineChart, Database } from 'lucide-react';
+import { Navigation, Film, Sprout } from 'lucide-react';
+// import { Film, Brain } from "lucide-react";
 
 const Projects = () => {
   const projects = [
-    {
-      title: 'AI-Powered Sentiment Analysis',
-      description: 'Advanced machine learning model analyzing social media sentiment with 95% accuracy using BERT and transformers.',
-      tags: ['Python', 'PyTorch', 'BERT', 'NLP'],
-      icon: <Brain className="w-8 h-8" />,
-      image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80'
-    },
-    {
-      title: 'Real-time Analytics Dashboard',
-      description: 'Interactive visualization platform processing millions of data points with real-time updates and predictive insights.',
-      tags: ['Python', 'Streamlit', 'Plotly', 'Real-time Data'],
-      icon: <LineChart className="w-8 h-8" />,
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80'
-    },
-    {
-      title: 'Predictive Market Analysis',
-      description: 'Time series forecasting system using ensemble methods to predict market trends with high accuracy.',
-      tags: ['Python', 'Prophet', 'Deep Learning'],
-      icon: <Database className="w-8 h-8" />,
-      image: 'https://images.unsplash.com/photo-1642543492481-44e81e3914a7?auto=format&fit=crop&q=80'
-    }
+  {
+    title: 'Hybrid Movie Recommendation System',
+    description: 'Hybrid recommender combining content-based TF-IDF (title/genres) and collaborative filtering (SVD) to deliver personalized top-N movie suggestions.',
+    tags: ['Python', 'scikit-learn', 'surprise', 'Flask', 'Recommender'],
+    icon: <Film className="w-8 h-8" />,
+    image: 'https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=600&q=80'
+  },
+  {
+    title: 'Autonomous Line-Following Robot',
+    description: 'Raspberry Pi-based autonomous line-following robot with OpenCV vision, PID control, intersection handling and live telemetry.',
+    tags: ['Python', 'OpenCV', 'PID Control', 'Raspberry Pi', 'Robotics'],
+    icon: <Navigation className="w-8 h-8" />,
+    image: 'https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&w=600'
+  },
+  {
+    title: 'Embedded System for Automated Plant Growth Control',
+    description: 'IoT-enabled embedded system that automates plant growth by monitoring soil moisture, temperature, humidity, and light with adaptive control mechanisms.',
+    tags: ['C', 'Python', 'Arduino', 'IoT', 'Embedded Systems'],
+    icon: <Sprout className="w-8 h-8" />,
+    image: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&q=80'
+  }
   ];
 
   return (
